@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(40deg, #CF75E0, #f149a9);
+    background-size: cover;
+}
+
+.contact-form{
+    height: 650px;
+    width: 750px;
+    background: #fff;
+    padding: 40px;
+}
+
+.contact-form h3{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 35px;
+    background: -webkit-linear-gradient(0deg, #8F2AE1 10%, #53D7e1 40%, #8F2AE1 90%,  #53D7e1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-name{
+    width: 48%;
+}
+
+.last-name{
+    width: 48%;
+}
+
+.email{
+    width: 100%;
+}
+.phone{
+    width: 100%;
+}
+.message{
+    width: 100%;
+}
+
+.form-input input{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+textarea{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+input,
+textarea{
+    border: 1px solid #ccc;
+    padding: 15px;
+    outline: none;
+    resize: none;
+}
+
+input:focus,
+textarea:focus{
+    border: 1px solid #D868C8;
+}
+
+label{
+
+    font-size: 13px;
+    line-height: 30.5px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #333333;
+    outline: none;
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #333333;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 40%;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+button i{
+    font-size: 15px;
+}
+
+button:hover{
+    background: linear-gradient(40deg, #CF75E0, #E557A8);
+    border:none;
+}
+
